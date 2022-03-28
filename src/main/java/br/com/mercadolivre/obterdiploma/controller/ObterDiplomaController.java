@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
+
 @RestController
 public class ObterDiplomaController {
 
@@ -14,7 +16,7 @@ public class ObterDiplomaController {
     IObterDiplomaService service;
 
     @PostMapping("/analyzeScores")
-    public StudentDTO analyzeScores(@RequestBody StudentDTO rq) {
+    public StudentDTO analyzeScores(@Valid @RequestBody StudentDTO rq) {
         return service.analyzeScores(rq);
     }
 }
