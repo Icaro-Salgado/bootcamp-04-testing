@@ -10,7 +10,7 @@ import javax.validation.constraints.*;
 public class SubjectDTO {
 
     @NotBlank(message="O nome do assunto não pode ficar vazio.")
-    @Pattern(regexp = "/^[A-Z][a-z0-9_-]{3,19}$/", message = "O nome do assunto deve começar com letra maiúscula.")
+    @Pattern(regexp = "\\b[A-Z][A-Za-z]*\\b", message = "O nome do assunto deve começar com letra maiúscula.")
     @Size(max=30, message = "O comprimento do nome não pode exceder 30 caracteres.")
     String name;
 
