@@ -1,7 +1,7 @@
-package br.com.mercadolivre.obterdiploma.controller;
+package br.com.mercadolivre.pi_01_obterdiploma.controller;
 
-import br.com.mercadolivre.obterdiploma.model.StudentDTO;
-import br.com.mercadolivre.obterdiploma.service.IObterDiplomaService;
+import br.com.mercadolivre.pi_01_obterdiploma.model.StudentDTO;
+import br.com.mercadolivre.pi_01_obterdiploma.service.IObterDiplomaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

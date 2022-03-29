@@ -1,4 +1,4 @@
-package br.com.mercadolivre.obterdiploma;
+package br.com.mercadolivre.pi_02_obterdiploma;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ObterDiplomaApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ObterDiplomaApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ObterDiplomaApplication.class, args);
+	}
 
 }

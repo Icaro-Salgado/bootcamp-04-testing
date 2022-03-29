@@ -1,4 +1,4 @@
-package br.com.mercadolivre.obterdiploma.model;
+package br.com.mercadolivre.pi_01_obterdiploma.model;
 
 import lombok.Getter;
 import lombok.Setter;
