@@ -1,7 +1,7 @@
-package br.com.mercadolivre.obterdiploma.service;
+package br.com.mercadolivre.pi_01_obterdiploma.service;
 
-import br.com.mercadolivre.obterdiploma.model.StudentDTO;
-import br.com.mercadolivre.obterdiploma.model.SubjectDTO;
+import br.com.mercadolivre.pi_01_obterdiploma.model.StudentDTO;
+import br.com.mercadolivre.pi_01_obterdiploma.model.SubjectDTO;
 import org.springframework.stereotype.Service;
 
 import java.text.DecimalFormat;

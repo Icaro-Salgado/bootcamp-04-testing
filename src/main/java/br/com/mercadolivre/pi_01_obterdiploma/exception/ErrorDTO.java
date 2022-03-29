@@ -1,4 +1,4 @@
-package br.com.mercadolivre.obterdiploma.exception;
+package br.com.mercadolivre.pi_01_obterdiploma.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,9 +1,7 @@
-package br.com.mercadolivre.obterdiploma.controller;
+package br.com.mercadolivre.pi_01_obterdiploma.controller;
 
-import br.com.mercadolivre.obterdiploma.exception.ErrorDTO;
+import br.com.mercadolivre.pi_01_obterdiploma.exception.ErrorDTO;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.ObjectError;
-import org.springframework.validation.beanvalidation.SpringValidatorAdapter;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
