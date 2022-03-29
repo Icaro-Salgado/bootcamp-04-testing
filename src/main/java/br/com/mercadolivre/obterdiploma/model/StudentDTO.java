@@ -3,6 +3,7 @@ package br.com.mercadolivre.obterdiploma.model;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.validation.Valid;
 import javax.validation.constraints.*;
 import java.util.List;
 
@@ -16,7 +17,7 @@ public class StudentDTO {
     String studentName;
 
     @NotEmpty(message = "A lista não pode estar vazia.")
-    List<SubjectDTO> subjects;
+    List<@Valid SubjectDTO> subjects;
 
     // TODO: Make fields validation.
     String message;

@@ -16,7 +16,7 @@ public class ObterDiplomaController {
     IObterDiplomaService service;
 
     @PostMapping("/analyzeScores")
-    public StudentDTO analyzeScores(@Valid @RequestBody StudentDTO rq) {
+    public StudentDTO analyzeScores(@RequestBody @Valid StudentDTO rq) {
         return service.analyzeScores(rq);
     }
 }
